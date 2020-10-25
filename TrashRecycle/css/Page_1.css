@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    float: left;
+}
+body{
+    display: flex;
+    flex: 1;
+    flex-flow: column;
+}
+.header{
+    height: 130px;
+    width: 100%;
+    background-color: #8B8B8B;
+    font-size: 60px;
+    color: #fff;
+    flex: 1;
+}
+.header h1{
+    line-height: 150px;
+}
+.nav_l{
+    flex: 2;
+    height: 400px;
+
+}
+.nav p{
+    color: #0080C0;
+    font-size: 25px;
+}
+.nav{
+    margin-top: 20px;
+    float: left;
+    padding-left: 50px;
+    position: relative;
+}
+.nav_t{
+    width: 94%;
+    height: 250px;
+
+
+}
+.nav_r{
+    flex: 3;
+}
+.nav_b{
+    width: 94%;
+    height: 200px;
+
+    margin-top: 0px;
+}
+.game,.back{
+    width: 100px;
+    height: 50px;
+    background-color: pink;
+    position: absolute;
+    right: 50px;
+    bottom: -100px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px 10px 10px 10px;
+}
+.back{
+    left: 50px;
+}
+.game a,.back a{
+    color: #fff;
+}
+.body{
+    display: flex;
+    position: relative;
+    /* overflow: hidden; */
+}
+.nav img{
+    width: 200px;
+    height: 200px;
+}
+.s2 img{
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+}
+.nav i{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+.i1{
+    position: absolute;
+    top: 12px;
+    left: 32px;
+    border-radius: 50%;
+    background-color: #0090D2;
+}
+.s1{
+    margin: 0 150px;
+}
+#s1{
+    display: flex;
+    flex-flow: column;
+}
+#s2{
+    display: flex;
+}
+.s2{
+    flex: 1;
+}
+.food img{
+    width: 500px;
+    height: 400px;
+    margin-left: 40px;
+}
+@media screen and (min-width:2000px){
+    .header {
+    background: red;
+    }
+}
+.napkins{
+    margin-left: 200px;
+}
+.foam{
+    margin-left: 350px;
+}
+.nav .pz{
+    width: 120px;
+    margin-left: 30px;
+}
+.nav .pz1{
+    height: 100px;
+    margin-top: 50px;
+}
+.nav .yj{
+    height: 80px;
+    margin-top: 80px;
+}
+.nav .bz{
+    width: 120px;
+    height: 195px;
+}
+.nav .gt{
+    width: 100px;
+    height: 150px;
+}
+#s2 .s3{
+    width: 100px;
+}
